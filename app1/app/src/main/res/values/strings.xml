@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">app1</string>
+    <string name="naspat">naspat</string>
+    <string name="mapa">mapa</string>
+    <string name="vyhladaj">vyhladaj</string>
+    <string name="lokacia">lokacia</string>
+    <string name="pocasie">pocasie</string>
+    <string name="teplota">teplota</string>
+    <string name="tlak">tlak</string>
+    <string name="vlhkost">relativna vlhkost</string>
+    <string name="SoS">SoS</string>
+    <string name="zapni_SoS">zapni SoS sluzbu</string>
+    <string name="vypni_SoS">vypni Sos sluzbu</string>
+    <string name="title_activity_second">second</string>
+    <string name="title_activity_third">third</string>
+    <string name="title_activity_fourth">fourth</string>
+    <string name="upload">nahraj</string>
+    <string name="nahratie_obrazkov">nahratie pamatnych obrazkov</string>
+    <string name="title_activity_fifths">fifths</string>
+    <string name="zaznamenanie_zazitkov">zaznamenaj zazitok</string>
+</resources>
