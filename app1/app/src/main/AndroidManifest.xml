@@ -52,9 +52,20 @@
             ></activity>
 
 
+
         <activity
-            android:name=".AddRecordActivity"
+            android:parentActivityName=".MainActivity"
+            android:name=".sixth"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity
+            android:name=".AddRecord"
             android:parentActivityName=".sixth" />
+        <activity android:name=".Url"
+            android:parentActivityName=".AddRecord"
+            ></activity>
+
+
 
     </application>
 

@@ -17,5 +17,7 @@
     <string name="upload">nahraj</string>
     <string name="nahratie_obrazkov">nahratie pamatnych obrazkov</string>
     <string name="title_activity_fifths">fifths</string>
+    <string name="title_activity_sixths">sixth</string>
     <string name="zaznamenanie_zazitkov">zaznamenaj zazitok</string>
+	<string name="title_activity_main">Dao</string>
 </resources>

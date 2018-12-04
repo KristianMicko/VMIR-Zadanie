@@ -18,9 +18,20 @@ public class MainActivity extends AppCompatActivity {
         pogoda();
         pomoc();
         upload();
-
+        zaznamenaj();
     }
 
+    public void zaznamenaj() {
+        ZaznamenajZazitok = (Button)findViewById(R.id.ZaznamenajZazitok);
+        ZaznamenajZazitok.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent poker = new Intent(getApplicationContext(), sixth.class);
+                startActivity(poker);
+                onPause();
+            }
+        });
+    }
 
 
     public void upload() {

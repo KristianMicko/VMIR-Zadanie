@@ -7,9 +7,9 @@ public class RetrofitTools {
     private static Retrofit instance;
     private static IMethods api;
 
-    private static  Retrofit getretrofitInstance() {
+    private static Retrofit getretrofitInstance() {
         if(instance == null)
-            return new Retrofit.Builder().baseUrl("https://hron.fei.tuke.sk/~km863qc/").addConverterFactory(GsonConverterFactory.create()).build();
+            return new Retrofit.Builder().baseUrl("https://kristiancoolrex.000webhostapp.com/").addConverterFactory(GsonConverterFactory.create()).build();
         return instance;
     }
 
