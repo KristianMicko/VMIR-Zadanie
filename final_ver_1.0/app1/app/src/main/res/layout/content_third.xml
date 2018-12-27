@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".third"
+    tools:showIn="@layout/activity_third">
+
+    <TextView
+        android:id="@+id/vlhkost"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/vlhkost"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tlak"
+        tools:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/teplotaUdaj"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/teplota"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/tlak"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tlak"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/teplotaUdaj"
+        tools:textSize="30sp" />
+
+</android.support.constraint.ConstraintLayout>
