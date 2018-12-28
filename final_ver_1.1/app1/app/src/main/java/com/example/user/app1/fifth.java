@@ -73,41 +73,7 @@ public class fifth extends AppCompatActivity {
 
     }
 
-    /*private void uploadFile() {
-        if (selectedFileUri != null){
-            dialog = new ProgressDialog(fifth.this);
-            dialog.setProgressStyle(ProgressDialog.STYLE_HORIZONTAL);
-            dialog.setMessage("Uploading...");
-            dialog.setIndeterminate(false);
-            dialog.setMax(100);
-            dialog.setCancelable(false);
-            dialog.show();
 
-            File file = FileUtils.getFile(this,selectedFileUri);
-            ProgessRequestBody progessRequestBody = new ProgessRequestBody(file,this);
-
-            final MultipartBody.Part body = MultipartBody.Part.createFormData("file",file.getName(),progessRequestBody);
-
-            new Thread(new Runnable() {
-                @Override
-                public void run() {
-                    mService.file(body).enqueue(new Callback<String>() {
-                        @Override
-                        public void onResponse(Call<String> call, Response<String> response) {
-                            dialog.dismiss();
-                            Toast.makeText(fifth.this,"Uploaded",Toast.LENGTH_SHORT).show();
-                        }
-
-                        @Override
-                        public void onFailure(Call<String> call, Throwable t) {
-                            Toast.makeText(fifth.this,t.getMessage(),Toast.LENGTH_SHORT).show();
-                        }
-                    });
-                }
-            }).start();
-
-        }
-    }*/
 
     private void chooseFile() {
         Intent intent = Intent.createChooser(FileUtils.createGetContentIntent(),"Select a file");
