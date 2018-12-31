@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.user.app1">
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <uses-feature android:name="android.hardware.Camera" />
+    <uses-feature android:name="android.hardware.camera.flash" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".second"
+            android:label="@string/title_activity_second"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".third"
+            android:label="@string/title_activity_third"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".fourth"
+            android:label="@string/title_activity_fourth"
+            android:parentActivityName=".MainActivity" />
+
+        <service android:name=".MyService" />
+        <service
+            android:name=".MyService_2"
+            android:enabled="true" />
+
+        <activity android:name=".fifth"
+                  android:label="@string/title_activity_fifths"
+                  android:parentActivityName=".MainActivity">
+
+        </activity>
+        <activity
+            android:name=".AddRecord"
+            android:parentActivityName=".sixth" />
+        <activity
+            android:name=".Url"
+            android:parentActivityName=".AddRecord" />
+        <activity
+            android:name=".sixth"
+            android:label="@string/title_activity_sixths"
+            android:parentActivityName=".MainActivity" />
+    </application>
+
+</manifest>

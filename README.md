@@ -1,3 +1,4 @@
 # VMIR-Zadanie
-app1 - tam finalizujem celkove zadanie, su tam finalne veci, co su po funkcionalnej stranke vyladene
+Cele zadanie je vyhotovene,
+Cely projekt najdete v zlozke Final_Konecna_Verzia
 

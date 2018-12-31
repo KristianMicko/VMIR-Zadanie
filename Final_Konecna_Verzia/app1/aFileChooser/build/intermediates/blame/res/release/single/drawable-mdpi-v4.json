@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "C:\\Users\\User\\Documents\\AndroidProjects\\app1\\aFileChooser\\build\\intermediates\\res\\merged\\release\\drawable-mdpi-v4\\ic_provider.png",
+        "source": "C:\\Users\\User\\Documents\\AndroidProjects\\app1\\aFileChooser\\src\\main\\res\\drawable-mdpi\\ic_provider.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\Documents\\AndroidProjects\\app1\\aFileChooser\\build\\intermediates\\res\\merged\\release\\drawable-mdpi-v4\\ic_chooser.png",
+        "source": "C:\\Users\\User\\Documents\\AndroidProjects\\app1\\aFileChooser\\src\\main\\res\\drawable-mdpi\\ic_chooser.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\Documents\\AndroidProjects\\app1\\aFileChooser\\build\\intermediates\\res\\merged\\release\\drawable-mdpi-v4\\ic_folder.png",
+        "source": "C:\\Users\\User\\Documents\\AndroidProjects\\app1\\aFileChooser\\src\\main\\res\\drawable-mdpi\\ic_folder.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\Documents\\AndroidProjects\\app1\\aFileChooser\\build\\intermediates\\res\\merged\\release\\drawable-mdpi-v4\\notification_bg_low_pressed.9.png",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\0fde0e4de7b4bfb52e073e8d07fb2fa2\\res\\drawable-mdpi-v4\\notification_bg_low_pressed.9.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\Documents\\AndroidProjects\\app1\\aFileChooser\\build\\intermediates\\res\\merged\\release\\drawable-mdpi-v4\\ic_file.png",
+        "source": "C:\\Users\\User\\Documents\\AndroidProjects\\app1\\aFileChooser\\src\\main\\res\\drawable-mdpi\\ic_file.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\Documents\\AndroidProjects\\app1\\aFileChooser\\build\\intermediates\\res\\merged\\release\\drawable-mdpi-v4\\notification_bg_normal.9.png",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\0fde0e4de7b4bfb52e073e8d07fb2fa2\\res\\drawable-mdpi-v4\\notification_bg_normal.9.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\Documents\\AndroidProjects\\app1\\aFileChooser\\build\\intermediates\\res\\merged\\release\\drawable-mdpi-v4\\notification_bg_low_normal.9.png",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\0fde0e4de7b4bfb52e073e8d07fb2fa2\\res\\drawable-mdpi-v4\\notification_bg_low_normal.9.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\Documents\\AndroidProjects\\app1\\aFileChooser\\build\\intermediates\\res\\merged\\release\\drawable-mdpi-v4\\notification_bg_normal_pressed.9.png",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\0fde0e4de7b4bfb52e073e8d07fb2fa2\\res\\drawable-mdpi-v4\\notification_bg_normal_pressed.9.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\Documents\\AndroidProjects\\app1\\aFileChooser\\build\\intermediates\\res\\merged\\release\\drawable-mdpi-v4\\notify_panel_notification_icon_bg.png",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\0fde0e4de7b4bfb52e073e8d07fb2fa2\\res\\drawable-mdpi-v4\\notify_panel_notification_icon_bg.png"
+    }
+]

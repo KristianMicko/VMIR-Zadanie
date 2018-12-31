@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".second"
+    tools:showIn="@layout/activity_second">
+
+    <TextView
+        android:id="@+id/lokacia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/lokacia"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:textSize="40sp"
+        android:textColor="@color/colorTextBackground"
+        />
+
+    <Button
+        android:id="@+id/najdi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/vyhladaj"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lokacia"
+        android:backgroundTint="@color/colorAccent"
+        android:textColor="@color/colorHint"
+        />
+
+    <org.osmdroid.views.MapView
+        android:id="@+id/mapView"
+        android:layout_width="match_parent"
+        android:layout_height="402dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/najdi"></org.osmdroid.views.MapView>
+
+</android.support.constraint.ConstraintLayout>
