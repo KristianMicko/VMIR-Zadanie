@@ -12,8 +12,8 @@
     <string name="zapni_SoS">zapni SoS sluzbu</string>
     <string name="vypni_SoS">vypni Sos sluzbu</string>
     <string name="title_activity_second">Mapa</string>
-    <string name="title_activity_third">SoS</string>
-    <string name="title_activity_fourth">Pocasie</string>
+    <string name="title_activity_third">Pocasie</string>
+    <string name="title_activity_fourth">SoS</string>
     <string name="upload">nahraj</string>
     <string name="nahratie_obrazkov">nahratie pamatnych obrazkov</string>
     <string name="title_activity_fifths">Nahratie obrazka</string>
